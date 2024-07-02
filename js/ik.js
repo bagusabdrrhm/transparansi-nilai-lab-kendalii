@@ -95,7 +95,7 @@ function openResultWindow(header, data) {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    justify-content: center;
+                    justify-content: flex-start;
                     text-align: center;
                     height: 125%;
                     padding: 20px;

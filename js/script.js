@@ -150,7 +150,7 @@ function openResultWindow(header, data) {
 
   // Menambahkan data ke tabel sesuai format yang diinginkan
   var headerGroups = [
-    ["Nama", "Kelompok"],
+    ["Nama", "NIM", "Kelompok"],
     ["Laporan Unit 1", "Praktikum Unit 1", "PT Unit 1", "Total Unit 1"],
     ["Laporan Unit 2", "Praktikum Unit 2", "PT Unit 2", "Total Unit 2"],
     ["Laporan Unit 3", "Praktikum Unit 3", "PT Unit 3", "Total Unit 3"],
@@ -163,7 +163,7 @@ function openResultWindow(header, data) {
   ];
 
   var dataGroups = [
-    [data[0][2], data[0][3]], // Nama dan Kelompok
+    [data[0][2], data[0][0], data[0][3]], // Nama dan Kelompok
     [data[0][4], data[0][5], data[0][6], data[0][7]], // Unit 1
     [data[0][8], data[0][9], data[0][10], data[0][11]], // Unit 2
     [data[0][12], data[0][13], data[0][14], data[0][15]], // Unit 3
